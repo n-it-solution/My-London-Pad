@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+}
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+                                                    /*header start*/
+.header-things{
+     background: #64ddbb;
+     height: 45px;
+ }
+.my-ul-nav li a{
+    padding: 12px 10px;
+    margin-top: 0px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+}
+.my-ul-nav li a:hover{
+    background: linear-gradient(to right, #64ddbb, #eee);
+    color: #ffffff;
+}
+.my-ul-nav li a:focus{
+    outline: none;
+    color: whitesmoke;
+    background: none;
+}
+.navbar-brand{
+    margin-top: -6px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.navbar-brand:focus{
+    color: #fff;
+}
+.navbar-brand:active{
+    color: #fff;
+}
+.lst-lft{
+    float: right;
+}
+#sign-in{
+    background: #fff;
+    color: #000;
+    transition: .3s;
+    margin-left: 10px;
+}
+#sign-up{
+    background: #d9dde0;
+    color: #000;
+    transition: .3s;
+    margin-right: 2px;
+}
+#sign-in:hover{
+    background: #fff;
+    color: #333;
+}
+#sign-up:hover{
+    background: #b2b8bc;
+}
+.drop-1, .drop-2, .drop-3, .drop-4, .drop-5{
+    display: none;
+    z-index: 1;
+}
+.drop-1{
+    background: #ffff;
+    width: 350%;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: absolute;
+    box-shadow: 1px 2px 3px #333;
+}
+.drop-1 li a{
+    color: #000;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-1 li a:hover{
+    color: #333;
+    background: linear-gradient(to right, #64ddbb, #eee);
+}
+.drop-2 li a:hover{
+    color: #333;
+    padding: 10px 25px;
+    background: linear-gradient(to right, #64ddbb, #eee);
+}
+.drop-3 li a:hover{
+    color: #333;
+    background: linear-gradient(to right, #64ddbb, #eee);
+}
+.drop-4 li a:hover{
+    color: #333;
+    background: linear-gradient(to right, #64ddbb, #eee);
+}
+.drop-5 li a:hover{
+    color: #333;
+    background: linear-gradient(to right, #64ddbb, #eee);
+}
+.drop-1 li{
+    margin-top: 10px;
+}
+.drop-2 li{
+    margin-top: 10px;
+}
+.drop-3 li{
+    margin-top: 10px;
+}
+.drop-4 li{
+    margin-top: 10px;
+}
+.drop-5 li{
+    margin-top: 10px;
+}
+.drop-2{
+    background: #ffff;
+    width: 320%;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: absolute;
+    box-shadow: 1px 2px 3px #333;
+}
+.drop-2 li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+}
+.drop-3 li a{
+    padding: 10px 28px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-4 li a{
+    padding: 10px 28px;
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+}
+.drop-5 li a{
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-3{
+    background: #ffff;
+    width: 200%;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: absolute;
+    box-shadow: 1px 2px 3px #333;
+}
+.drop-3 li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+}
+.drop-4{
+    background: #ffff;
+    width: 200%;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: absolute;
+    box-shadow: 1px 2px 3px #333;
+}
+.drop-5 li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+}
+.drop-5{
+    background: #ffff;
+    width: 125%;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: absolute;
+    box-shadow: 1px 2px 3px #333;
+}
+#buy{
+    position: relative;
+}
+#buy:hover .drop-1{
+    display: block;
+}
+#rent:hover .drop-2{
+    display: block!important;
+}
+#mort:hover .drop-3{
+    display: block!important;
+}
+#lcl:hover .drop-4{
+    display: block!important;
+}
+#add:hover .drop-5{
+    display: block!important;
+}
+                                        /*header end*/
+
+
+
+                                                                /*footer start*/
+.footer{
+    background: url("../../content/images/bg-footer.jpg");
+    opacity: .9;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.real-estate{
+}
+.real-estate ul li{
+    margin-top: 10px;
+}
+.real-estate ul li a{
+    text-decoration: none;
+    color: #869099;
+}
+.ppl-real-estate ul li a{
+    text-decoration: none;
+    color: #869099;
+}
+.explore ul li a{
+    text-decoration: none;
+    color: #869099;
+}
+.pro ul li a{
+    text-decoration: none;
+    color: #869099;
+}
+.ppl-real-estate ul li{
+    margin-top: 10px;
+}
+.explore ul li{
+    margin-top: 10px;
+}
+.pro ul li{
+    margin-top: 10px;
+}
+.ppl-real-estate{
+}
+.explore{
+}
+.pro{
+}
+.real-estate ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.ppl-real-estate ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.explore ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.pro ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.listing{
+    text-align: center;
+    margin-top: 2%;
+}
+.listing a{
+    text-decoration: none;
+    color: #869099;
+    margin-left: 10px;
+}
+.listing a:hover{
+    color: whitesmoke;
+}
+.copy-right{
+    margin-top: 3%;
+}
+.copy-right p{
+    color: #869099;
+    font-size: 10px;
+}
+.copy-right p a{
+    color: #869099;
+    font-size: 10px;
+    text-decoration: none;
+}
+.copy-right p a:hover{
+    color: whitesmoke;
+}
+.copy-right span{
+    float: right;
+    font-size: 10px;
+    color: #869099;
+}
+.copy-right span:hover{
+    color: #fff;
+    cursor: default;
+}
+                                                                /*footer end*/
+#user-image{
+    width: 25px;
+    background: white;
+    border-radius: 50px;
+    padding: 2px;
+}
+.my-ul-nav li.user-image a:hover {
+     background: transparent;
+}
+.user-drop{
+    background: #fff;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: -3px;
+    margin-left: 22px;
+    padding-bottom: 7px;
+    box-shadow: 2px 2px 20px #3333;
+    display: none;
+}
+.user-drop li{
+    margin-top: 5px;
+}
+.user-drop li a{
+    color: #333;
+}
+.user-drop li a:hover{
+    color: #64ddbb;
+    text-decoration: none;
+}
+.user-profile{
+    /*background: red;*/
+}
+.short-profile{
+    /*background: orange;*/
+}
+.big-profile{
+    /*background: pink;*/
+}
+.user-profile-pic{
+    /*background: yellow;*/
+    text-align: center;
+}
+.user-profile-pic img{
+    background: #64ddbb;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    padding: 3px;
+}
+.user-things{
+    /*background: khaki;*/
+    width: 95%;
+    margin: 0 auto;
+}
+.edit-pro, .rental-resume, .saved-searches, .my-rooms-for-rent, .notifications, .change-pass, .logout{
+    padding: 10px;
+}
+.edit-pro{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.rental-resume, .saved-searches, .my-rooms-for-rent, .notifications, .logout, .change-pass{
+    border-bottom: 1px solid #eee;
+}
+.user-things a:hover{
+    text-decoration: none;
+    color: #64ddbb;
+}
+.profile-details{
+    /*background: indianred;*/
+}
+.profile-form{
+    /*background: #9d9d9d;*/
+}
+.profile-pic{
+    border: 2px dashed #5bc0de;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+.who-can-see-profile p{
+	line-height:1.8em;
+    /*background: lightcoral;*/
+}
+.who-can-see-profile h5{
+	padding:7px 0px;
+}
+.profile-form button{
+    float: right;
+    font-weight: bold;
+}
+.save-profile-button{
+    background: #64ddbb;
+    outline: #64ddbb;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    border: none;
+}
+.save-profile-button:hover{
+    background: #64ddbb;
+    color: #333;
+    outline: #64ddbb;
+    border: none;
+}
+.save-profile-button:focus{
+    background: #64ddbb;
+    color: #333;
+    outline: #64ddbb;
+    border: none;
+}
+.save-profile-button:active{
+    background: #64ddbb;
+    color: #333;
+    outline: #64ddbb;
+    border: none;
+}
+.cncl-btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: red;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.cncl-btn:hover{
+    background: red;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.cncl-btn:active{
+    background: red;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.cncl-btn:focus{
+    background: red;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.edit-profile-heading{
+    border-bottom: 1px solid #eee;
+    padding: 5px 0px;
+}
+.edit-profile-heading span:nth-child(2){
+    float: right;
+    margin-top: 15px;
+}
+.edit-profile-heading span:nth-child(1){
+    font-size: 30px;
+}
+.profile-form label{
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

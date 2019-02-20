@@ -1,0 +1,548 @@
+
+            /*galaxy s5*/
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    .navbar-toggle{
+        border: 1px solid #fff!important;
+    }
+    .fa-bars{
+        color: #fff!important;
+    }
+    .my-ul-nav li a{
+        text-align: center!important;
+        color: #fff!important;
+    }
+    #sign-in {
+        background: #fff;
+        color: #000!important;
+        transition: .3s;
+    }
+    .drop-1 {
+        background: #ffff;
+        width: 100%!important;
+        margin: 0;
+        padding-top: 6px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: absolute;
+        box-shadow: 1px 2px 3px #333;
+    }
+    .drop-1 li a, .drop-2 li a, .drop-3 li a, .drop-4 li a, .drop-5 li a{
+        color: #000!important;
+    }
+    .my-ul-nav li a:hover {
+       background: #64ddbb;
+        color: #ffffff!important;
+    }
+    .my-ul-nav li a:focus {
+       background: #64ddbb;
+        color: #ffffff!important;
+    }
+    .my-ul-nav li a:active {
+       background: #64ddbb;
+        color: #ffffff!important;
+    }
+    .drop-2 {
+        background: #ffff;
+        width: 100%!important;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: absolute;
+        box-shadow: 1px 2px 3px #333;
+    }
+    .drop-3 {
+        background: #ffff;
+        width: 100%!important;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: absolute;
+        box-shadow: 1px 2px 3px #333;
+    }
+    .drop-4 {
+        background: #ffff;
+        width: 100%!important;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: absolute;
+        box-shadow: 1px 2px 3px #333;
+    }
+    .caret1, .caret2, .caret3, .caret4, .caret5 {
+        font-size: 25px!important;
+        color: #fff;
+        position: absolute;
+        top: 27px;
+        right: 48%!important;
+        display: none!important;
+    }
+    .header-things {
+       background: #64ddbb;
+        height: auto!important;
+    }
+    .qry-pd{
+        padding: 0px 5px!important;
+    }
+    .mn-details .brought-to-u {
+         margin-top: 0%!important;
+    }
+    .brought-to-u{
+        text-align: center!important;
+    }
+    .brdway{
+        text-align: center!important;
+    }
+    .address {
+        text-align: center!important;
+        padding: 10px 0px!important;
+    }
+    .address {
+        margin-bottom: 0px!important;
+    }
+    .address p {
+        margin: 0 0 0px!important;
+    }
+    .auction h4 {
+        font-size: 40px!important;
+        color: #333!important;
+        margin-top: 10%!important;
+    }
+    .auction {
+        text-align: center!important;
+         margin-left: 0%!important;
+    }
+    .btn-default {
+       background: #64ddbb;
+        border: none;
+        color: white;
+        outline: none;
+        margin-top: 20px!important;
+    }
+    .mn-details .logo-img {
+        margin-top: 5%!important;
+    }
+    .footer{
+        text-align: center!important;
+    }
+    .explore ul li{
+        display: inline-block!important;
+        margin-left: 21px!important;
+    }
+    .listing a{
+        display: block!important;
+    }
+    .pop-sites {
+        /*background: red;*/
+        margin-bottom: 0px!important;
+        text-align: center;
+        margin-top: 20px!important;
+    }
+    .details-topic p {
+        font-size: 15px!important;
+    }
+    .roooms {
+        border: 1px solid #eee;
+        border-left: 1px solid #eee!important;
+        text-align: center;
+        padding: 0px 20px;
+        padding-bottom: 1px;
+        padding-top: 15px;
+        margin-top: 10px!important;
+    }
+    .beds {
+        border: 1px solid #eee;
+        border-left: 1px solid #eee!important;
+        text-align: center;
+        padding: 0px 20px;
+        padding-bottom: 1px;
+        padding-top: 15px;
+        margin-top: 10px!important;
+    }
+    .baths {
+        border: 1px solid #eee;
+        border-left: 1px solid #eee!important;
+        text-align: center;
+        padding: 0px 20px;
+        padding-bottom: 1px;
+        padding-top: 15px;
+        margin-top: 10px!important;
+    }
+    .srch {
+        margin-top: 20px!important;
+        text-align: center!important;
+    }
+    .cntct-fr-prcng .cntct-links {
+        text-align: center!important;
+        margin-top: 20px!important;
+        margin-bottom: 15px!important;
+    }
+    .cntct-txt p {
+        font-size: 20px!important;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 15px!important;
+    }
+    .agent-info h1 {
+        font-weight: bold;
+        font-size: 20px!important;
+    }
+    .agent-info h3 {
+        font-weight: 100;
+        font-size: 15px!important;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 3px;
+        color: gray;
+    }
+    .agent-info {
+        text-align: center!important;
+        margin-top: 10%!important;
+        margin-bottom: 10%!important;
+    }
+    .srch p:nth-child(2){
+        margin-bottom: 20px!important;
+        font-size: 15px!important;
+    }
+    .the-space{
+        text-align: center!important;
+    }
+    .land-size{
+        text-align: center!important;
+        margin-top: -15px!important;
+        margin-bottom: 30px!important;
+    }
+    .year-built{
+        text-align: center!important;
+    }
+    .next-is{
+        text-align: center!important;
+        margin-top: 35px!important;
+    }
+    ol {
+         padding: 0px 7px!important;
+    }
+    .lst-lft {
+        float: none!important;
+    }
+    #sign-in {
+        background: #fff;
+        color: #000;
+        transition: .3s;
+        margin-left: 0px!important;
+    }
+    #signup {
+        background: white;
+        color: #333!important;
+        margin-bottom: 10px!important;
+    }
+    .btn-default{
+        background: #64ddbb;
+        border: none;
+        color: white;
+        width: 100%!important;
+    }
+    .description{
+        text-align: center!important;
+    }
+    .description-details{
+        text-align: justify!important;
+        margin-top: -8%!important;
+    }
+    .map-txt{
+        text-align: center!important;
+    }
+
+}
+
+
+            /** pixel 2 **/
+
+ @media only screen and (min-width: 411px) and (max-width: 731px) {
+
+}
+            /** pixel 2 XL **/
+@media only screen and (min-width: 411px) and (max-width: 823px) {
+}
+
+
+            /** iPhone 5 **/
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+    .navbar-toggle{
+        border: 1px solid #fff!important;
+    }
+    .fa-bars{
+        color: #fff!important;
+    }
+    .my-ul-nav li a{
+        text-align: center!important;
+        color: #fff!important;
+    }
+    #sign-in {
+        background: #fff;
+        color: #000!important;
+        transition: .3s;
+    }
+    .drop-1 {
+        background: #ffff;
+        width: 100%!important;
+        margin: 0;
+        padding-top: 6px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: absolute;
+        box-shadow: 1px 2px 3px #333;
+    }
+    .drop-1 li a, .drop-2 li a, .drop-3 li a, .drop-4 li a, .drop-5 li a{
+        color: #000!important;
+    }
+    .my-ul-nav li a:hover {
+        background: #64ddbb;
+        color: #ffffff!important;
+    }
+    .my-ul-nav li a:focus {
+        background: #64ddbb;
+        color: #ffffff!important;
+    }
+    .my-ul-nav li a:active {
+        background: #64ddbb;
+        color: #ffffff!important;
+    }
+    .drop-2 {
+        background: #ffff;
+        width: 100%!important;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: absolute;
+        box-shadow: 1px 2px 3px #333;
+    }
+    .drop-3 {
+        background: #ffff;
+        width: 100%!important;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: absolute;
+        box-shadow: 1px 2px 3px #333;
+    }
+    .drop-4 {
+        background: #ffff;
+        width: 100%!important;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: absolute;
+        box-shadow: 1px 2px 3px #333;
+    }
+    .caret1, .caret2, .caret3, .caret4, .caret5 {
+        font-size: 25px!important;
+        color: #fff;
+        position: absolute;
+        top: 27px;
+        right: 48%!important;
+        display: none!important;
+    }
+    .header-things {
+        background: #64ddbb;
+        height: auto!important;
+    }
+    .qry-pd{
+        padding: 0px 5px!important;
+    }
+    .mn-details .brought-to-u {
+        margin-top: 0%!important;
+    }
+    .brought-to-u{
+        text-align: center!important;
+    }
+    .brdway{
+        text-align: center!important;
+    }
+    .address {
+        text-align: center!important;
+        padding: 10px 0px!important;
+    }
+    .address {
+        margin-bottom: 0px!important;
+    }
+    .address p {
+        margin: 0 0 0px!important;
+    }
+    .auction h4 {
+        font-size: 40px!important;
+        color: #333!important;
+        margin-top: 10%!important;
+    }
+    .auction {
+        text-align: center!important;
+        margin-left: 0%!important;
+    }
+    .btn-default {
+        background: #64ddbb;
+        border: none;
+        color: white;
+        outline: none;
+        margin-top: 20px!important;
+    }
+    .mn-details .logo-img {
+        margin-top: 5%!important;
+    }
+    .footer{
+        text-align: center!important;
+    }
+    .explore ul li{
+        display: inline-block!important;
+        margin-left: 21px!important;
+    }
+    .listing a{
+        display: block!important;
+    }
+    .pop-sites {
+        /*background: red;*/
+        margin-bottom: 0px!important;
+        text-align: center;
+        margin-top: 20px!important;
+    }
+    .details-topic p {
+        font-size: 15px!important;
+    }
+    .roooms {
+        border: 1px solid #eee;
+        border-left: 1px solid #eee!important;
+        text-align: center;
+        padding: 0px 20px;
+        padding-bottom: 1px;
+        padding-top: 15px;
+        margin-top: 10px!important;
+    }
+    .beds {
+        border: 1px solid #eee;
+        border-left: 1px solid #eee!important;
+        text-align: center;
+        padding: 0px 20px;
+        padding-bottom: 1px;
+        padding-top: 15px;
+        margin-top: 10px!important;
+    }
+    .baths {
+        border: 1px solid #eee;
+        border-left: 1px solid #eee!important;
+        text-align: center;
+        padding: 0px 20px;
+        padding-bottom: 1px;
+        padding-top: 15px;
+        margin-top: 10px!important;
+    }
+    .srch {
+        margin-top: 20px!important;
+        text-align: center!important;
+    }
+    .cntct-fr-prcng .cntct-links {
+        text-align: center!important;
+        margin-top: 20px!important;
+        margin-bottom: 15px!important;
+    }
+    .cntct-txt p {
+        font-size: 20px!important;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 15px!important;
+    }
+    .agent-info h1 {
+        font-weight: bold;
+        font-size: 20px!important;
+    }
+    .agent-info h3 {
+        font-weight: 100;
+        font-size: 15px!important;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 3px;
+        color: gray;
+    }
+    .agent-info {
+        text-align: center!important;
+        margin-top: 10%!important;
+        margin-bottom: 10%!important;
+    }
+    .srch p:nth-child(2){
+        margin-bottom: 20px!important;
+    }
+    .the-space{
+        text-align: center!important;
+    }
+    .land-size{
+        text-align: center!important;
+        margin-top: -15px!important;
+        margin-bottom: 30px!important;
+    }
+    .year-built{
+        text-align: center!important;
+    }
+    .next-is{
+        text-align: center!important;
+        margin-top: 35px!important;
+    }
+    ol {
+        padding: 0px 7px!important;
+    }
+    .lst-lft {
+        float: none!important;
+    }
+    #sign-in {
+        background: #fff;
+        color: #000;
+        transition: .3s;
+        margin-left: 0px!important;
+    }
+    #signup {
+        background: white;
+        color: #333!important;
+        margin-bottom: 10px!important;
+    }
+    .btn-default{
+        background: #64ddbb;
+        border: none;
+        color: white;
+        width: 100%!important;
+    }
+    .description{
+        text-align: center!important;
+    }
+    .description-details{
+        text-align: justify!important;
+        margin-top: -8%!important;
+    }
+    .map-txt{
+        text-align: center!important;
+    }
+}
+
+
+
+            /** iPhone 6/7/8 **/
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+}
+
+
+            /*!** iPhone 6/7/8 plus **/
+
+ @media only screen and (min-width: 414px) and (max-width: 736px){
+
+ }
+
+
+
+
+
+            /** iPhone X **/
+            @media only screen and (min-width: 375px) and (max-width: 812px){
+
+            }

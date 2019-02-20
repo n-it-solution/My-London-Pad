@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+}
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}/*
+.mynavbar{
+    float: right;
+    margin-top: 15px;
+}*/
+.head-img{
+    background-size: cover;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* margin-top: -25px; */
+    position: absolute;
+    width: 100%;
+    top: 72px;
+    z-index: 99;
+}
+.navigation{
+    background: #64ddbb;
+    color: #fff;
+}
+.my-ul-nav li a{
+    padding: 5px 20px;
+    margin-top: 13px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    transition: .1s;
+}
+.my-ul-nav li a:hover{
+    background: #64ddbb;
+    color: #333;
+}
+.my-ul-nav li a:focus{
+    outline: none;
+    color: whitesmoke;
+    background: #64ddbb;
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.navbar-brand:focus{
+    color: #000;
+}
+.navbar-brand:active{
+    color: #000;
+}
+.lst-lft{
+    float: right;
+}
+#sign-in{
+    border: 1px solid #3bbd99;
+    color: #333;
+    transition: .3s;
+}
+#sign-up{
+    background: #3bbd99;
+    border: 1px solid #3bbd99;
+    color: #fff;
+    transition: .3s;
+    margin-right: 2px;
+}
+#sign-in:hover{
+    background: #3bbd99;
+    color: #fff;
+}
+#sign-up:hover{
+    background: transparent;
+    color: #333;
+}
+.drop-1, .drop-2, .drop-3, .drop-4, .drop-5{
+    display: none;
+    z-index: 9999!important;
+    transition: .1s;
+}
+.drop-1{
+    background: rgba(0,0,0,1);
+    width: 230%;
+    padding-bottom: 9px;
+    text-align: center;
+    position: absolute;
+}
+.drop-1 li a{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-1 li a:hover{
+    color: #333;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-1 li{
+    margin-top: 10px;
+}
+.drop-2 li{
+    margin-top: 10px;
+}
+.drop-3 li{
+    margin-top: 10px;
+}
+.drop-4 li{
+    margin-top: 10px;
+}
+.drop-5 li{
+    margin-top: 10px;
+}
+.drop-2{
+    background: rgba(0,0,0,1);
+    width: 210%;
+    padding-bottom: 9px;
+    text-align: center;
+    position: absolute;
+}
+.drop-2 li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-2 li a:hover{
+    color: #333;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-3 li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-3 li a:hover{
+    color: #333;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-4 li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-4 li a:hover{
+    color: #333;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-5 li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-5 li a:hover{
+    color: #333;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-3{
+    background: rgba(0,0,0,1);
+    width: 150%;
+    padding-bottom: 9px;
+    text-align: center;
+    position: absolute;
+}
+.drop-3 li a{
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-4{
+    background: rgba(0,0,0,1);
+    width: 150%;
+    padding-bottom: 9px;
+    text-align: center;
+    position: absolute;
+}
+.drop-5 li a{
+    text-decoration: none;
+    font-weight: lighter;
+}
+.drop-5{
+    background: rgba(0,0,0,1);
+    width: 100%;
+    padding-bottom: 9px;
+    text-align: center;
+    position: absolute;
+}
+#buy{
+    position: relative;
+}
+#buy:hover .drop-1{
+    display: block;
+}
+#rent:hover .drop-2{
+    display: block!important;
+}
+#mort:hover .drop-3{
+    display: block!important;
+}
+#lcl:hover .drop-4{
+    display: block!important;
+}
+#add:hover .drop-5{
+    display: block!important;
+}
+.welcome-text{
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.6);
+    width: 70%;
+    margin: 15% auto;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+.welcome-text h3:nth-child(1){
+    font-size: 35px;
+}
+.welcome-text h3:nth-child(2){
+    font-size: 35px;
+}
+
+/* Style the tab */
+.tab {
+    background: rgba(0,0,0,.4);
+    overflow: hidden;
+    color: #fff;
+    width: 53%;
+    margin: 0 auto;
+    text-align: center!important;
+    margin-top: -25px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background: #64ddbb;
+    color: #fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background: #64ddbb;
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    width: 75%;
+    margin: 0 auto;
+}
+.tab-box{
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.srch-adrs{
+    margin: 0;
+    padding: 30px 10px;
+    border-radius: unset;
+    width: 100%;
+    position: relative;
+    font-size: 22px;
+}
+.fa-search{
+    position: absolute;
+    font-size: 30px!important;
+    right: 30.7%;
+    bottom: 38.7%;
+    color: #fff;
+    background: #64ddbb;
+    padding: 12px;
+}
+.neighbor-1{
+    border: 1px solid #eee;
+    padding: 2px;
+    position: relative;
+}
+.neighbor-details{/*
+    padding: 1px 10px;
+    margin: -6px 0px;*/
+}
+.dscvr-txt{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.discover-place{
+    background: #eee;
+    margin-top: 30px;
+}
+.footer{
+    background: url("../../content/images/bg-footer.jpg");
+    opacity: .9;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.real-estate{
+}
+.real-estate ul li{
+    margin-top: 10px;
+}
+.real-estate ul li a{
+    text-decoration: none;
+    color: #869099;
+}
+.ppl-real-estate ul li a{
+    text-decoration: none;
+    color: #869099;
+}
+.explore ul li a{
+    text-decoration: none;
+    color: #869099;
+}
+.pro ul li a{
+    text-decoration: none;
+    color: #869099;
+}
+.ppl-real-estate ul li{
+    margin-top: 10px;
+}
+.explore ul li{
+    margin-top: 10px;
+}
+.pro ul li{
+    margin-top: 10px;
+}
+.ppl-real-estate{
+}
+.explore{
+}
+.pro{
+}
+.real-estate ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.ppl-real-estate ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.explore ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.pro ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.listing{
+    text-align: center;
+    margin-top: 2%;
+}
+.listing a{
+    text-decoration: none;
+    color: #869099;
+    margin-left: 10px;
+}
+.listing a:hover{
+    color: whitesmoke;
+}
+.copy-right{
+    margin-top: 3%;
+}
+.copy-right p{
+    color: #869099;
+    font-size: 10px;
+}
+.copy-right p a{
+    color: #869099;
+    font-size: 10px;
+    text-decoration: none;
+}
+.copy-right p a:hover{
+    color: whitesmoke;
+}
+.copy-right span{
+    float: right;
+    font-size: 10px;
+    color: #869099;
+}
+.copy-right span:hover{
+    color: #fff;
+    cursor: default;
+}
+.tab1{
+    float: left;
+}
+.tab1:hover{
+    color: #333!important;
+}
+.tab2:hover{
+    color: #333!important;
+}
+.tab3{
+    float: right;
+}
+.tab3:hover{
+    color: #333!important;
+}
+
+#broadWay{/*
+    float: right;*/
+}
+.rw-mrgin{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.safe-neighborhoods{
+    margin-top: 10px;
+}
+
+.slider{
+    position: relative;
+}
+.neighbor-1 .label{
+    background: #64ddbb;
+    color: #fff;
+    position: absolute;
+    padding: 0px 25px;
+}
+.detail-heading{/*
+    background: pink;*/
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    padding: 1px 13px;
+}
+.bath-bed{/*
+    background: red;*/
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+.price{/*
+    background: orange;*/
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none!important;
+}
+.price h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.view-button{
+    background: #64ddbb;
+    border-radius: unset;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.view-button:active{
+    background: #64ddbb;
+    border-radius: unset;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.view-button:focus{
+    background: #64ddbb;
+    border-radius: unset;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.view-button:hover{
+    background: #64ddbb;
+    border: 1px solid #64ddbb;
+    color: #333;
+}
+.neighbor-details{
+    position: relative;
+    cursor: pointer;
+}
+.hover-over{
+    background: rgba(0,0,0,.9);
+    color: #fff;
+    position: absolute;
+    width: 98.9%;
+    height: 69.9vh;
+    top: 2px;
+    display: none;
+}
+.hover-over .owner-details{
+    text-align: center;
+    margin-top: 55%;
+    color: #fff;
+}
+.hover-over .bath-bed{
+    margin-top: 5%;
+    margin-bottom: 27px;
+    border: none;
+    color: #fff;
+}
+.hover-over .price{
+    margin-top: 8%;
+}
+.owner-image{
+    text-align: center;
+    margin-top: 8%;
+}
+.owner-image img{
+    background: #8c8c8c;
+    border-radius: 50%;
+}
+.neighbor-1:hover .hover-over{
+    display: block;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 1px!important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3bbd99;
+    border-radius: 2px;
+}
+.panel-heading {
+    text-align: center;
+}
+.cnfrm-signup{
+    background: #64ddbb;
+    border: 1px solid #64ddbb;
+    font-weight: bold;
+    transition: .5s!important;
+    margin-top: 10px;
+}
+.rst-signup{
+    background: #64ddbb;
+    border: 1px solid #64ddbb;
+    font-weight: bold;
+    transition: .5s!important;
+}
+.cnfrm-signup:hover{
+    color: #fff;
+    transition: .5s;
+}
+.rst-signup:hover{
+    color: red;
+    transition: .5s;
+}
+.cnfrm-signup:focus{
+    outline: none!important;
+}
+.rst-signup:focus{
+    outline: none!important;
+}
+.cnfrm-login{
+    background: #64ddbb;
+    border: 1px solid #64ddbb;
+    font-weight: bold;
+    transition: .5s!important;
+}
+.fa-sign-in{
+    font-size: 15px!important;
+}
+.cnfrm-login:hover{
+    color: #fff;
+    transition: .5s;
+}
+input [type="pasword"]{
+    margin-bottom: 10px!important;
+}
+.title-topic{
+    text-align: center;
+}
+a .next-page{
+    color: whitesmoke!important;
+}
+.featured-property{
+
+}
+.proerty-image{
+    overflow: hidden;
+    transition: .4s!important;
+}
+.proerty-image:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .4s;
+}
+.proerty-image-details{
+    background: white;
+    border: 5px solid #eee;
+    padding: 0px 20px;
+    padding-top: 6px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    margin-left: -80px;
+    box-shadow: 5px 5px 50px #3333;
+}
+.proerty-image-details h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.proerty-image-details .road{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+.proerty-image-details h5{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #64ddbb;
+    padding-bottom: 5px;
+}
+.proerty-image-details .detail-bed{
+    margin-right: 5px;
+}
+.proerty-image-details .detail-icons{
+    font-size: 40px!important;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+.proerty-image-details .detail-icons:hover{
+    color: #64ddbb!important;
+    transition: .3s!important;
+}
+.proerty-image-details p{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.proerty-image-details .more-details-button{
+    background: #64ddbb;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 3px 30px;
+}
+.proerty-image-details .more-details-button:hover{
+    color: #333;
+}
+span.no-of-things{
+    font-size: 22px;
+}
+.heart-icon .fa-heart{
+    float: right;
+    position: absolute;
+    right: 2px;
+    color: #fff;
+    font-size: 30px;
+}
+.owner-details .heart-icon .fa-heart{
+    float: right;
+    position: absolute;
+    right: 45%;
+    top: 120%;
+    color: #fff;
+    font-size: 40px;
+}
+.hover-over .heart-icon .fa-heart{
+    float: right;
+    position: absolute;
+    right: 45%;
+    bottom: 25%;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.hover-over .heart-icon .fa-heart:active{
+    outline: none;
+}
+.hover-over .heart-icon .fa-heart:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
